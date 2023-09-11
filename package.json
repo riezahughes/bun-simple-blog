@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "bun test"
   },
   "dependencies": {
     "@types/node": "20.6.0",
@@ -18,5 +19,6 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "5.2.2"
-  }
+  },
+  "devDependencies": { "bun-types": "^1.0.1" }
 }
